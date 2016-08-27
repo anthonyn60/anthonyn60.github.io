@@ -12,3 +12,14 @@ body {
     font-size: 2.0em !important;
 }
 
+.mobile-nav {
+    width: 240px;
+}
+
+.side-title {
+    font-size: 1.5em;
+}
+
+.bio-header {
+    font-size: 18px;
+}
