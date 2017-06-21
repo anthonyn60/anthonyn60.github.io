@@ -1,4 +1,4 @@
 # Personal-Site
-My personal website, built with Materialize
+My personal website
 
-Check it out at http://anthnguyen.ca
+Check it out at http://anthonynguyen.io
