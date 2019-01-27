@@ -27,3 +27,11 @@ body {
 .bio-btn {
     margin: 0.3rem 0.3rem;
 }
+
+.maroon {
+    background-color: #9D586B !important;
+}
+
+.maroon-text {
+    color: #683B47 !important;
+}
