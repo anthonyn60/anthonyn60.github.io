@@ -1,234 +1,298 @@
 <!DOCTYPE html>
 <html lang="en" hola_ext_inject="disabled">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="msapplication-tap-highlight" content="no">
-    <title>Anthony Nguyen - Software Engineer - Portfolio</title>
-    <meta name="description" content="Welcome to my portfolio. I'm a software engineer with experience writing production Ruby on Rails, Javascript, HTML/CSS and Java.">
 
-    <!-- CSS-->
-    <link href='resources/images/favicon.ico' rel='icon' type='image/x-icon'/>
-    <link href="resources/stylesheets/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="resources/stylesheets/style.css" type="text/css" rel="stylesheet">
-  </head>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+  <title>Anthony Nguyen - Software Engineer - Portfolio</title>
+  <meta name="description"
+    content="Welcome to my portfolio. I'm a software engineer with experience writing production Ruby on Rails, Javascript, HTML/CSS and Java.">
 
-  <body>
-    <header>
-      <nav class="top-nav maroon">
-        <div class="container maroon">
-          <div class="nav-wrapper"><a class="page-title page-head">My Portfolio</a></div>
+  <!-- CSS-->
+  <link href='resources/images/favicon.ico' rel='icon' type='image/x-icon' />
+  <link href="resources/stylesheets/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="resources/stylesheets/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="top-nav maroon">
+      <div class="container maroon">
+        <div class="nav-wrapper"><a class="page-title page-head">My Portfolio</a></div>
+      </div>
+    </nav>
+    <div class="container"><a href="#" data-activates="nav-mobile"
+        class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a></div>
+    <ul id="nav-mobile" class="side-nav fixed mobile-nav">
+      <li class="logo"><a id="logo-container" href="/" class="brand-logo maroon-text side-title">Anthony Nguyen</a></li>
+      <li class="bold"><a href="/" class="waves-effect waves-teal">My Profile</a></li>
+      <li class="bold active"><a href="portfolio.html" class="waves-effect waves-teal">My Portfolio</a></li>
+    </ul>
+  </header>
+  <br>
+  <main>
+    <div class="container">
+      <div class="row">
+
+        <div class="col s12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <span class="card-title black-text">Experience</span>
+              <p>To see my work experience (with corresponding projects) and extracurriculars, check out my LinkedIn or
+                Resume below.</p><br>
+              <a class="waves-effect waves-light btn bio-btn maroon" href="files/ANTHONY%20NGUYEN%20-%20Resume.pdf"
+                target="_blank">Resume</a>
+              <a class="waves-effect waves-light btn bio-btn maroon"
+                href="http://ca.linkedin.com/in/anthonynguyen94">LinkedIn</a>
+            </div>
+          </div>
         </div>
-      </nav>
-      <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a></div>
-      <ul id="nav-mobile" class="side-nav fixed mobile-nav">
-        <li class="logo"><a id="logo-container" href="/" class="brand-logo maroon-text side-title">Anthony Nguyen</a></li>
-        <li class="bold"><a href="/" class="waves-effect waves-teal">My Profile</a></li>
-        <li class="bold active"><a href="portfolio.html" class="waves-effect waves-teal">My Portfolio</a></li>
-      </ul>
-    </header>
-    <br>
-    <main>
+
+        <div class="col s12">
+          <div class="card blue-grey lighten-5">
+            <div class="card-content black-text">
+              <span class="card-title black-text">Portfolio</span><br>
+
+              <div class="row">
+                <!-- start of card -->
+                <div class="card col s12 m5">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="resources/images/syntaxdb.png">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">SyntaxDB<i
+                        class="material-icons right">more_vert</i></span>
+                    <p>Easily look up programming syntax for 9 different languages<br><br>
+                      <a class="waves-effect waves-light btn maroon" href="https://syntaxdb.com"
+                        target="_blank">Link</a>
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">SyntaxDB<i
+                        class="material-icons right">close</i></span>
+                    <p>SyntaxDB allows developers to easily look up programming syntax. The database contains 9
+                      different languages and over 500 concepts, accessible through the website, REST API, or
+                      plugins.<br><br>
+                      Languages Supported: Java, C, C++, C#, Python, Ruby, JavaScript, Swift<br><br>
+                      Built with: Ruby on Rails, Apache Solr<br><br>
+
+                      <a href="https://motherboard.vice.com/en_us/article/4xam5d/a-search-engine-for-programming-language-syntax-is-a-pretty-good-idea"
+                        target="_blank">Motherboard (Vice)</a><br>
+                      <a href="https://fossbytes.com/syntaxdb-programming-syntax-search-engine-coders"
+                        target="_blank">Fossbytes</a><br>
+                      <a href="https://www.producthunt.com/posts/syntaxdb" target="_blank">Product Hunt</a>
+                    </p>
+                  </div>
+                </div> <!-- end of card -->
+
+                <!-- start of card -->
+                <div class="card col s12 m5 offset-m1">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="resources/images/aegle.png">
+                  </div>
+
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Aegle<i
+                        class="material-icons right">more_vert</i></span>
+                    <p>Hospital Paging and Scheduling System. Capstone project.<br><br>
+                      <a class="waves-effect waves-light btn maroon" href="http://devpost.com/software/bitness"
+                        target="_blank">Link</a>
+                    </p>
+                  </div>
+
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Aegle<i
+                        class="material-icons right">close</i></span>
+                    <p>For my capstone project, my team developed a paging system for hospitals which automates the
+                      assignment of
+                      patients to doctors. Assignment algorithm aims to minimize wait times (by load balancing doctors)
+                      and ensure
+                      proper assignment of specialists (through diagnostic categories). <br><br>
+
+                      The back-end server was written in Node.js on top of a MySQL database, with REST API endpoints for
+                      communication.
+                      The front-end web portal was implemented using Angular.js. A custom dedicated smartwatch was also
+                      built using
+                      Arduino. <br><br>
+
+                      Awards: <br>
+                      <li>Voted best project by first and second year students</li>
+                      <li>3rd overall for best project (industry and faculty judges)</li>
+                      <li>Queen's IEEE Student Project Competition Winner</li>
+                      <li>2nd place - IEEE Eastern Ontario Student Project Competition</li>
+                    </p>
+                  </div>
+                </div> <!-- end of card -->
+
+              </div><!-- end of row -->
+
+              <div class="row">
+                <!-- start of card -->
+                <div class="card col s12 m5">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="resources/images/bitness.png">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Bitness<i
+                        class="material-icons right">more_vert</i></span>
+                    <p>Motion-detecting workout game for Android and Pebble devices.<br>
+                      <br><a class="waves-effect waves-light btn maroon" href="http://devpost.com/software/bitness"
+                        target="_blank">Link</a>
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">BITNESS<i
+                        class="material-icons right">close</i></span>
+                    <p>BITNESS aims to motivate users to workout by rewarding them with in game experience to level
+                      their 8-bit character. Pairing a Pebble with FocusMotion's movement analysing SDK, our app is able
+                      to identify the type and repetitions of over 50 different exercises. By exercising, the user is
+                      able to earn experience points which levels up their character and gives access to new and more
+                      interesting wearable items. Designed to be unobtrusive, tracking is triggered and stopped with a
+                      flick of the wrist, ideal for gym use in between sets. Created at Hack the North 2015.
+                    </p>
+                  </div>
+                </div> <!-- end of card -->
+
+                <!-- start of card -->
+                <div class="card col s12 m5 offset-m1">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="resources/images/qcbt.png">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">QCBT<i
+                        class="material-icons right">more_vert</i></span>
+                    <p>Queen's Conference on Business and Technology<br>
+                      <br><a class="waves-effect waves-light btn maroon" href="http://qcbt.ca" target="_blank">Link</a>
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">QCBT<i
+                        class="material-icons right">close</i></span>
+                    <p>After an incredible experience being on the CEEC 2014 executive team, I was inspired to create
+                      and lead a conference called the <b>Queen's Conference on Business & Technology</b>. The purpose
+                      of the conference is to bridge the gap between the business and technology space at Queen's, and
+                      create a culture of innovation. The conference was attended by 130 delegates spanning all
+                      disciplines, and featured representatives from 10 different schools across Canada, making it the
+                      largest multidisciplinary conference on campus.<br><br>
+                      After handing off the Co-Chair role, I returned to the team as a Sponsorship Director. QCBT 2016
+                      saw tremendous growth, reaching 13 schools, having a 100% increase in delegate applications, and a
+                      75% increase in sponsorship funds.</p>
+                  </div>
+                </div> <!-- end of card -->
+
+              </div><!-- end of row -->
+
+              <div class="row">
+                <!-- start of card -->
+                <div class="card col s12 m5">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="resources/images/promobands.png">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">PromoBands<i
+                        class="material-icons right">more_vert</i></span>
+                    <p>Company formed out an award-winning Junior Achievement campaign<br>
+                      <br><a class="waves-effect waves-light btn maroon" href="http://promobands.net"
+                        target="_blank">Link</a>
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">PromoBands<i
+                        class="material-icons right">close</i></span>
+                    <p>PromoBands is a business venture started in 2012 out of an award-winning Junior Achievement
+                      campaign. PromoBands offers custom wristbands and lanyards, and provides design consulting with
+                      every order. PromoBands has provided custom products for corporate clients like IBM, and Del
+                      Monte, as well as local groups like OFSAA, and Best Buddies.<br><br>
+                      My responsibility is to work with these clients. I take requirements from the client and translate
+                      them to product designs. The service we provide gives us a competitive advantage. Every now and
+                      then, I close the occassional client as well.</p>
+                  </div>
+                </div> <!-- end of card -->
+
+                <!-- start of card -->
+                <div class="card col s12 m5 offset-m1">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="resources/images/agnav.png">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">AG-NAV Site Redesign<i
+                        class="material-icons right">more_vert</i></span>
+                    <p>Gave the AG-NAV website a new look and feel, part of last summer's internship<br>
+                      <br><a class="waves-effect waves-light btn maroon" href="http://agnav.com"
+                        target="_blank">Link</a>
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">AG-NAV Site Redesign<i
+                        class="material-icons right">close</i></span>
+                    <p>Part of my internship last summer was to redesign the AG-NAV website. A major shift in the
+                      redesign was clearly presenting each product's value proposition, as opposed to boasting technical
+                      specifications. This resulted in a large increase in viewer engagement (bounce rate down 35%,
+                      pages per session up 100%). Sales increased 25% from the previous year.<br><br>
+                      Some of the other challenges faced and overcome included implementing semi-automated translations,
+                      migrating with zero downtime, and ensuring the new CMS (Wordpress) was easier to use than the
+                      existing one.</p>
+                  </div>
+                </div> <!-- end of card -->
+              </div><!-- end of row of 2 -->
+
+              <div class="row">
+                <!-- start of card -->
+                <div class="card col s12 m5">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="resources/images/qset.png">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">QSET Site Redesign<i
+                        class="material-icons right">more_vert</i></span>
+                    <p>Part of my responsibility as Head of Outreach on the QSET executive team<br>
+                      <br><a class="waves-effect waves-light btn maroon" href="http://qset.ca" target="_blank">Link</a>
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">QSET Site Redesign<i
+                        class="material-icons right">close</i></span>
+                    <p>The Queen's Space Engineering Team (QSET) hired me on as Head of Outreach to redo their site and
+                      improve QSET's brand awareness on campus.</p>
+                  </div>
+                </div> <!-- end of card -->
+
+              </div><!-- end of row of 3 -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="page-footer white">
+    <div class="footer-copyright maroon">
       <div class="container">
-        <div class="row">
-
-          <div class="col s12">
-            <div class="card blue-grey lighten-5">
-              <div class="card-content black-text">
-                <span class="card-title black-text">Experience</span>
-                  <p>To see my work experience (with corresponding projects) and extracurriculars, check out my LinkedIn or Resume below.</p><br>
-                  <a class="waves-effect waves-light btn bio-btn maroon" href="files/ANTHONY%20NGUYEN%20-%20Resume.pdf" target="_blank">Resume</a>
-                  <a class="waves-effect waves-light btn bio-btn maroon" href="http://ca.linkedin.com/in/anthonynguyen94">LinkedIn</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12">
-            <div class="card blue-grey lighten-5">
-              <div class="card-content black-text">
-                <span class="card-title black-text">Portfolio</span><br>
-
-                <div class="row">
-                <!-- start of card -->
-                  <div class="card col s12 m5">
-                      <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="resources/images/syntaxdb.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">SyntaxDB<i class="material-icons right">more_vert</i></span>
-                        <p>Easily look up programming syntax for 9 different languages<br><br>
-                          <a class="waves-effect waves-light btn maroon" href="https://syntaxdb.com" target="_blank">Link</a>
-                        </p>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">SyntaxDB<i class="material-icons right">close</i></span>
-                        <p>SyntaxDB allows developers to easily look up programming syntax. The database contains 9 different languages and over 500 concepts, accessible through the website, REST API, or plugins.<br><br>
-                          Languages Supported: Java, C, C++, C#, Python, Ruby, JavaScript, Swift<br><br>
-                          Built with: Ruby on Rails, Apache Solr<br><br>
-
-                          <a href="https://motherboard.vice.com/en_us/article/4xam5d/a-search-engine-for-programming-language-syntax-is-a-pretty-good-idea" target="_blank">Motherboard (Vice)</a><br>
-                          <a href="https://fossbytes.com/syntaxdb-programming-syntax-search-engine-coders" target="_blank">Fossbytes</a><br>
-                          <a href="https://www.producthunt.com/posts/syntaxdb" target="_blank">Product Hunt</a>
-                        </p>
-                      </div>
-                  </div> <!-- end of card -->
-
-                  <!-- start of card -->
-                  <div class="card col s12 m5 offset-m1">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="resources/images/aegle.png">
-                    </div>
-                  
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Aegle<i class="material-icons right">more_vert</i></span>
-                      <p>Hospital Paging and Scheduling System. Capstone project.<br><br>
-                        <a class="waves-effect waves-light btn maroon" href="http://devpost.com/software/bitness" target="_blank">Link</a>
-                      </p>
-                    </div>
-                  
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Aegle<i class="material-icons right">close</i></span>
-                      <p>For my capstone project, my team developed a paging system for hospitals which automates the assignment of
-                        patients to doctors. Assignment algorithm aims to minimize wait times (by load balancing doctors) and ensure
-                        proper assignment of specialists (through diagnostic categories). <br><br>
-                  
-                        The back-end server was written in Node.js on top of a MySQL database, with REST API endpoints for communication.
-                        The front-end web portal was implemented using Angular.js. A custom dedicated smartwatch was also built using
-                        Arduino. <br><br>
-                  
-                        Awards: <br>
-                        <li>Voted best project by first and second year students</li>
-                        <li>3rd overall for best project (industry and faculty judges)</li>
-                        <li>Queen's IEEE Student Project Competition Winner</li>
-                        <li>2nd place - IEEE Eastern Ontario Student Project Competition</li>
-                      </p>
-                    </div>
-                  </div> <!-- end of card -->
-
-                </div><!-- end of row -->
-
-                <div class="row">
-                   <!-- start of card -->
-                  <div class="card col s12 m5">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="resources/images/bitness.png">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Bitness<i class="material-icons right">more_vert</i></span>
-                      <p>Motion-detecting workout game for Android and Pebble devices.<br>
-                        <br><a class="waves-effect waves-light btn maroon" href="http://devpost.com/software/bitness" target="_blank">Link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">BITNESS<i class="material-icons right">close</i></span>
-                      <p>BITNESS aims to motivate users to workout by rewarding them with in game experience to level their 8-bit character. Pairing a Pebble with FocusMotion's movement analysing SDK, our app is able to identify the type and repetitions of over 50 different exercises. By exercising, the user is able to earn experience points which levels up their character and gives access to new and more interesting wearable items. Designed to be unobtrusive, tracking is triggered and stopped with a flick of the wrist, ideal for gym use in between sets. Created at Hack the North 2015.
-                      </p>
-                    </div>
-                  </div> <!-- end of card -->
-
-                  <!-- start of card -->
-                  <div class="card col s12 m5 offset-m1">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="resources/images/qcbt.png">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">QCBT<i class="material-icons right">more_vert</i></span>
-                      <p>Queen's Conference on Business and Technology<br>
-                          <br><a class="waves-effect waves-light btn maroon" href="http://qcbt.ca" target="_blank">Link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">QCBT<i class="material-icons right">close</i></span>
-                        <p>After an incredible experience being on the CEEC 2014 executive team, I was inspired to create and lead a conference called the <b>Queen's Conference on Business & Technology</b>. The purpose of the conference is to bridge the gap between the business and technology space at Queen's, and create a culture of innovation. The conference was attended by 130 delegates spanning all disciplines, and featured representatives from 10 different schools across Canada, making it the largest multidisciplinary conference on campus.<br><br>
-                        After handing off the Co-Chair role, I returned to the team as a Sponsorship Director. QCBT 2016 saw tremendous growth, reaching 13 schools, having a 100% increase in delegate applications, and a 75% increase in sponsorship funds.</p>
-                    </div>
-                  </div> <!-- end of card -->
-
-                </div><!-- end of row -->
-
-                <div class="row">
-                  <!-- start of card -->
-                  <div class="card col s12 m5">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="resources/images/promobands.png">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">PromoBands<i class="material-icons right">more_vert</i></span>
-                      <p>Company formed out an award-winning Junior Achievement campaign<br>
-                        <br><a class="waves-effect waves-light btn maroon" href="http://promobands.net" target="_blank">Link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">PromoBands<i class="material-icons right">close</i></span>
-                      <p>PromoBands is a business venture started in 2012 out of an award-winning Junior Achievement campaign. PromoBands offers custom wristbands and lanyards, and provides design consulting with every order. PromoBands has provided custom products for corporate clients like IBM, and Del Monte, as well as local groups like OFSAA, and Best Buddies.<br><br>
-                        My responsibility is to work with these clients. I take requirements from the client and translate them to product designs. The service we provide gives us a competitive advantage. Every now and then, I close the occassional client as well.</p>
-                    </div>
-                  </div> <!-- end of card -->
-
-                  <!-- start of card -->
-                  <div class="card col s12 m5 offset-m1">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="resources/images/agnav.png">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">AG-NAV Site Redesign<i class="material-icons right">more_vert</i></span>
-                      <p>Gave the AG-NAV website a new look and feel, part of last summer's internship<br>
-                        <br><a class="waves-effect waves-light btn maroon" href="http://agnav.com" target="_blank">Link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">AG-NAV Site Redesign<i class="material-icons right">close</i></span>
-                      <p>Part of my internship last summer was to redesign the AG-NAV website. A major shift in the redesign was clearly presenting each product's value proposition, as opposed to boasting technical specifications. This resulted in a large increase in viewer engagement (bounce rate down 35%, pages per session up 100%). Sales increased 25% from the previous year.<br><br>
-                        Some of the other challenges faced and overcome included implementing semi-automated translations, migrating with zero downtime, and ensuring the new CMS (Wordpress) was easier to use than the existing one.</p>
-                    </div>
-                  </div> <!-- end of card -->
-                </div><!-- end of row of 2 -->
-
-                <div class="row">
-                <!-- start of card -->
-                  <div class="card col s12 m5">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="resources/images/qset.png">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">QSET Site Redesign<i class="material-icons right">more_vert</i></span>
-                      <p>Part of my responsibility as Head of Outreach on the QSET executive team<br>
-                        <br><a class="waves-effect waves-light btn maroon" href="http://qset.ca" target="_blank">Link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">QSET Site Redesign<i class="material-icons right">close</i></span>
-                      <p>The Queen's Space Engineering Team (QSET) hired me on as Head of Outreach to redo their site and improve QSET's brand awareness on campus.</p>
-                    </div>
-                  </div> <!-- end of card -->
-
-                </div><!-- end of row of 3 -->
-
-              </div>
-            </div>
-          </div>
-        </div>
+        © 2020 Anthony Nguyen
       </div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </script>
+  <script src="resources/javascript/materialize.js"></script>
+  <script src="resources/javascript/init.js"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    </main>
+    ga('create', 'UA-66512103-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
 
-    <footer class="page-footer white">
-      <div class="footer-copyright maroon">
-        <div class="container">
-            © 2020 Anthony Nguyen
-        </div>
-      </div>
-    </footer>
-    <!--  Scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </script>
-    <script src="resources/javascript/materialize.js"></script>
-    <script src="resources/javascript/init.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-66512103-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
 </html>
